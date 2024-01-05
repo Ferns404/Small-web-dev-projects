@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333; /*Dark grey background*/
+}
+#calculator {
+    background-color: #555; /*lighter grey for the calculator*/
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.471); /*shadow or popout effect*/
+    overflow: hidden;
+    width: 300px;
+}
+#display {
+    font-size: 2em;
+    height: 80px;
+    text-align: right;
+    padding: 10px; /*display padding*/
+    border: none;
+    outline: none;
+    width: calc(100% - 20px); 
+    margin: 1;
+    background-color: #2e2e2e;   /*Dark grey background for the display*/
+    color: #00f7ff; /*Light cyan colour texxt*/
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px; 
+}
+.button {
+    height: 60px;
+    font-size: 1.5em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #444;   /*light grey for the buttons*/
+    border-radius: 0;
+    color: #fff;   /*white colour text for buttons*/
+}
+.button:hover {
+    background-color: #00cdd0; /*cyan on hover for buttons*/
+}
+.button.operator {
+    background-color: #007f86;
+}
+.button.operator:hover {
+    background-color: #00c0ca; /*cyan on hover on operator buttons*/
+} 
+.button.double {
+    grid-column: span 2;
+    width: 100%;
+    
+}
+
+.button.operator.double {
+   grid-column: span 2;    /*align the % button*/
+}
