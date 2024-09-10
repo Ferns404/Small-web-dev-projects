@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Priority</title>
+    <link rel="stylesheet" href="tc.css">
+</head>
+<body>
+
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+
+        <div class="form-container">
+            <input type="text" id="task-input" placeholder="Add your new task...">
+            <input type="date" id="due-date">
+            <select id="priority-select">
+            <option value="green">Low Priority 🟩</option>
+            <option value="yellow">Medium Priority 🟨</option>
+            <option value="red">High Priority 🟥</option>
+            </select>
+            <button class="add-btn" onclick="addTask()">Add</button>
+        </div>
+        
+        <table class="task-table">
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Due Date</th>
+                    <th>Priority</th>
+                    <th>Complete</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="task-list">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="tj.js"></script>
+</body>
+</html>
