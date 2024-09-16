@@ -21,6 +21,6 @@ How to Use: <br/>
 Each project is self-contained within its own folder. To run a project, simply clone the repository, navigate to the desired project folder, and open the index.html file in a browser.
 
 Ideal For: <br/>
-  ‣ Beginners who want to practice and solidify their front-end development skills. <br/>      
+  ‣ Beginners who want to practice and solidify their front-end development skills.      
   ‣ Intermediate developers looking for quick project ideas to build on or customize. <br/>
   ‣ Anyone interested in hands-on learning with JavaScript, CSS, and HTML. <br/>
