@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Picker</title>
+  <link rel="stylesheet" href="cp.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Colour Picker</h1>
+
+    <!-- Color Picker Input -->
+    <div class="picker-section">
+      <label for="colorPicker">Pick a color:</label>
+      <input type="color" id="colorPicker" />
+    </div>
+
+    <!-- Displaying Color Values -->
+    <div class="color-info">
+      <p>HEX Code: <span id="hexValue">#000000</span></p>
+      <p>RGB Value: <span id="rgbValue">rgb(0, 0, 0)</span></p>
+    </div>
+
+    <!-- Save Color Button -->
+    <button id="saveColorBtn" class="neon-btn">Save Color</button>
+
+    <!-- Saved Colors -->
+    <div class="saved-colors">
+      <h2>Saved Colours</h2>
+      <div id="savedColors"></div>
+    </div>
+  </div>
+
+  <script src="cp.js"></script>
+</body>
+</html>
