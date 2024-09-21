@@ -10,7 +10,7 @@ Projects Included:
    link- https://heartfelt-alfajores-fcbf50.netlify.app/
 
 3. To-Do List Project- A task management app that allows users to organize tasks with a priority system for efficient planning. <br/>
-   link- https://vocal-vacherin-9cb674.netlify.app/
+   link- https://cookie-to-do-list.netlify.app/
 
 Technologies Used: <br/>
   ‣ HTML5: For structure and semantic elements. <br/>
