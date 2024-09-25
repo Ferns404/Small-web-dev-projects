@@ -12,6 +12,9 @@ Projects Included:
 3. To-Do List Project- A task management app that allows users to organize tasks with a priority system for efficient planning. <br/>
    link- https://cookie-to-do-list.netlify.app/
 
+4. Color Picker Web Project- A web-based color picker that allows users to select colors and view the corresponding HEX code and RGB value. <br/>
+   link- https://mrpicky-color.netlify.app/
+
 Technologies Used: <br/>
   ‣ HTML5: For structure and semantic elements. <br/>
   ‣ CSS3: For styling, including transitions, grid, and flexbox layouts. <br/>
