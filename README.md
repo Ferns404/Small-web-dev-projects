@@ -15,6 +15,9 @@ Projects Included:
 4. Color Picker Web Project- A web-based color picker that allows users to select colors and view the corresponding HEX code and RGB value. <br/>
    link- https://mrpicky-color.netlify.app/
 
+5. Cocktail Recipe Finder- A cocktail recipe finder where users input an ingredient and get cocktail suggestions, using TheCocktailDB API for real-time recipes and drink details. <br/>
+   link- https://cookies-cocktail-recipe-finder.netlify.app/
+
 Technologies Used: <br/>
   ‣ HTML5: For structure and semantic elements. <br/>
   ‣ CSS3: For styling, including transitions, grid, and flexbox layouts. <br/>
