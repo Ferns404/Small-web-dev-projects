@@ -1,0 +1,11 @@
+
+
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"song", "artistId":1442015384, "collectionId":1619027098, "trackId":1619027259, "artistName":"Gleix", "collectionName":"Anxiety Dreams", "trackName":"Search Query", "collectionCensoredName":"Anxiety Dreams", "trackCensoredName":"Search Query", "artistViewUrl":"https://music.apple.com/us/artist/gleix/1442015384?uo=4", "collectionViewUrl":"https://music.apple.com/us/album/search-query/1619027098?i=1619027259&uo=4", "trackViewUrl":"https://music.apple.com/us/album/search-query/1619027098?i=1619027259&uo=4", 
+"previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/4a/53/f1/4a53f1e7-fee0-63b8-2eb2-74ee085fa0f7/mzaf_10701592150472986577.plus.aac.p.m4a", "artworkUrl30":"https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6c/88/80/6c888066-48e1-55ce-bfc6-016cbb9f3fd7/198003572966.jpg/30x30bb.jpg", "artworkUrl60":"https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6c/88/80/6c888066-48e1-55ce-bfc6-016cbb9f3fd7/198003572966.jpg/60x60bb.jpg", "artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6c/88/80/6c888066-48e1-55ce-bfc6-016cbb9f3fd7/198003572966.jpg/100x100bb.jpg", "collectionPrice":9.99, "trackPrice":0.99, "releaseDate":"2022-02-22T12:00:00Z", "collectionExplicitness":"explicit", "trackExplicitness":"notExplicit", "discCount":1, "discNumber":1, "trackCount":17, "trackNumber":11, "trackTimeMillis":118843, "country":"USA", "currency":"USD", "primaryGenreName":"Electronic", "isStreamable":true}]
+}
+
+
