@@ -1,0 +1,124 @@
+/* Pacifico font import */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  background-color: #181818;
+  font-family: 'Verdana', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.music-player-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 1200px;
+  background-color: #282828;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 159, 180, 0.5);
+}
+
+.player-panel {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121212;
+}
+
+/* Song Details: Flex container for album art and song info */
+.song-details {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.album-art img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 20px; /* Adds space between image and text */
+}
+
+.song-info {
+  flex: 1;
+}
+
+#songTitle {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  color: #00d9d9;
+}
+
+#songArtist {
+  font-size: 1rem;
+  color: #b3b3b3;
+}
+
+.progress-bar-container {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#progressBar {
+  flex: 1;
+  height: 5px;
+  background-color: #404040;
+  margin: 0 10px;
+}
+
+.controls button {
+  font-size: 1.5rem;
+  color: #b3b3b3;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.volume-control {
+  margin-top: 10px;
+}
+
+/* Search Box Styling */
+.search-panel {
+  padding: 20px;
+  background-color: #121212;
+  border-top: 1px solid #333;
+}
+
+.search-panel input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #333;
+  color: white;
+  outline: none;
+}
+
+#songList {
+  list-style: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto; /* Enables scrolling if the list exceeds the max height */
+}
+
+#songList li {
+  padding: 10px;
+  background-color: #282828;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#songList li:hover {
+  background-color: #404040;
+}
