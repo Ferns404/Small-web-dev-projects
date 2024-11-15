@@ -18,6 +18,9 @@ Projects Included:
 5. Cocktail Recipe Finder- A cocktail recipe finder where users input an ingredient and get cocktail suggestions, using TheCocktailDB API for real-time recipes and drink details. <br/>
    link- https://cookies-cocktail-recipe-finder.netlify.app/
 
+6. Music Player- A simple but stylish music player that lets you search for songs and play 30-second previews, using the free iTunes API. <br/>
+   link- https://cookies-music-player.netlify.app/
+
 Technologies Used: <br/>
   ‣ HTML5: For structure and semantic elements. <br/>
   ‣ CSS3: For styling, including transitions, grid, and flexbox layouts. <br/>
