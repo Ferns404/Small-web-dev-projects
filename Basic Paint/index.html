@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App - MS Paint Style</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toolbar">
+        <!-- Color Picker -->
+        <label for="colorPicker">Color: </label>
+        <input type="color" id="colorPicker" value="#000000">
+
+        <!-- Brush Size -->
+        <label for="brushSize">Brush Size: </label>
+        <input type="range" id="brushSize" min="1" max="50" value="5">
+
+        <!-- Tools -->
+        <button id="eraserBtn">Eraser</button>
+        <button id="clearBtn">Clear</button>
+
+        <!-- Mode Switcher -->
+        <button id="toggleMode">Light Mode</button>
+    </div>
+
+    <canvas id="drawingCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
