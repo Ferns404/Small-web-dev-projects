@@ -1,7 +1,7 @@
 # Web Development Mini Projects
 This repository contains a collection of small web development projects built using HTML, CSS, and JavaScript and hosted by [Netlify](https://www.netlify.com/). These mini-projects are designed to practice various front-end development concepts, including DOM manipulation, API integration, event handling, and responsive design. Each project is standalone and focuses on specific web development skills, making it a great resource for beginners and intermediate developers.
 
-Projects Included:
+Projects Included: 
 
 1. Form Validation Project- A user friendly web form that ensures valid input by providing real-time validation feedback. <br/>
    link- https://relaxed-taffy-52bafd.netlify.app/
