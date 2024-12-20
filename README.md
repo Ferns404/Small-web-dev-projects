@@ -21,7 +21,8 @@ Projects Included:
 6. Music Player- A simple but stylish music player that lets you search for songs and play 30-second previews, using the free iTunes API. <br/>
    link- https://cookies-music-player.netlify.app/
 
-7. Paint- A browser-based drawing app inspired by MS Paint, utilizing the HTML5 Canvas API for sketching and painting. Features include customizable brush sizes, colors, and shapes, along with light and dark modes for a       personalized creative experience. <br/>
+7. Paint- A browser-based drawing app inspired by MS Paint, utilizing the HTML5 Canvas API for sketching and painting. Features include customizable brush sizes, colors, and shapes, along with light and dark modes for a        personalized creative experience. <br/>
+   link- https://cookie-paint.netlify.app/
 
 Technologies Used: <br/>
   ‣ HTML5: For structure and semantic elements. <br/>
