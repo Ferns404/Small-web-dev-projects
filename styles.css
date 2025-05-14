@@ -1,0 +1,81 @@
+/* Body and General Styling */
+body {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .converter-container {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.5);
+    width: 300px;
+  }
+  
+  /* Title Styling */
+  h1 {
+    color: #00ffff;
+    font-size: 2rem;
+    text-shadow: 0 0 10px rgb(0, 189, 189);
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #00ffff;
+  }
+  
+  input, select {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  select {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  /* Button Styling */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00ffff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #00e6e6;
+  }
+  
+  /* Result Styling */
+  #result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffff;
+  }
+  
+  

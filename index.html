@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="converter-container">
+    <h1>Unit Converter</h1>
+    <div class="converter-form">
+      <!-- Input Field -->
+      <label for="valueInput">Enter Value:</label>
+      <input type="number" id="valueInput" placeholder="Enter value..." />
+
+      <!-- Select Category -->
+      <label for="unitCategory">Select Category:</label>
+      <select id="unitCategory">
+        <option value="temperature">Temperature</option>
+        <option value="length">Length</option>
+        <option value="weight">Weight</option>
+      </select>
+
+      <!-- From Unit -->
+      <label for="fromUnit">From:</label>
+      <select id="fromUnit"></select>
+
+      <!-- To Unit -->
+      <label for="toUnit">To:</label>
+      <select id="toUnit"></select>
+
+      <!-- Convert Button -->
+      <button id="convertBtn">Convert</button>
+
+      <!-- Result Display -->
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
